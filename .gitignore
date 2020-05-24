@@ -1,0 +1,252 @@
+
+# Criado por https://www.gitignore.io/api/linux,macos,python,pycharm,visualstudiocode
+# Edite em https://www.gitignore.io/?templates=linux,macos,python,pycharm,visualstudiocode
+
+### Linux ###
+* ~
+
+# arquivos temporários que podem ser criados se um processo ainda tiver um identificador aberto de um arquivo excluído
+.fuse_hidden *
+
+# Preferências de diretório do KDE
+.diretório
+
+# Pasta de lixo do Linux que pode aparecer em qualquer partição ou disco
+.Lixo-*
+
+# .nfs arquivos são criados quando um arquivo aberto é removido, mas ainda está sendo acessado
+.nfs *
+
+### Mac OS ###
+# Geral
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ícone deve terminar com dois \ r
+Ícone
+
+# Miniaturas
+._ *
+
+# Arquivos que podem aparecer na raiz de um volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Diretórios potencialmente criados no compartilhamento AFP remoto
+.AppleDB
+.AppleDesktop
+Pasta Lixeira em Rede
+Itens temporários
+.apdisk
+
+### PyCharm ###
+# Abrange IDEs do JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio e WebStorm
+# Referência: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Coisas específicas do usuário
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / use.statistics.xml
+.idea / ** / dicionários
+.idea / ** / prateleira
+
+# Arquivos gerados
+.idea / ** / contentModel.xml
+
+# Arquivos sensíveis ou de alta rotatividade
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+# Gradle
+.idea / ** / gradle.xml
+.idea / ** / libraries
+
+# Gradle e Maven com importação automática
+# Ao usar o Gradle ou o Maven com importação automática, você deve excluir os arquivos do módulo,
+# pois eles serão recriados e podem causar rotatividade. Remova o comentário se estiver usando
+# importação automática.
+# .idea / modules.xml
+# .idea / *. iml
+# .idea / modules
+# * .iml
+# * .ipr
+
+# CMake
+cmake-build - * /
+
+# Mongo Explorer plugin
+.idea / ** / mongoSettings.xml
+
+# Formato de projeto baseado em arquivo
+* .iws
+
+# IntelliJ
+Fora/
+
+# mpeltonen / plugin sbt-idea
+.idea_modules /
+
+# Plugin do JIRA
+atlassian-ide-plugin.xml
+
+# Plugin Cursive Clojure
+.idea / replstate.xml
+
+# Plug-in do Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Cliente de descanso baseado em editor
+.idea / httpRequests
+
+# Arquivo de cache serializado do Android studio 3.1 ou superior
+.idea / caches / build_file_checksums.ser
+
+### Patch do PyCharm ###
+# Motivo do comentário: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# * .iml
+# modules.xml
+# .idea / misc.xml
+# * .ipr
+
+# Sonarlint plugin
+.idea / ** / sonarlint /
+
+# SonarQube Plugin
+.idea / ** / sonarIssues.xml
+
+# Plug-in do Markdown Navigator
+.idea / ** / markdown-navigator.xml
+.idea / ** / markdown-navigator /
+
+### Pitão ###
+# Arquivos compilados em bytes / otimizados / DLL
+__pycache __ /
+* .py [cod]
+* $ py.class
+
+Extensões # C
+*.tão
+
+# Distribuição / embalagem
+.Pitão
+Construir/
+ovos de revelação /
+dist /
+Transferências/
+ovos/
+.ovos/
+lib /
+lib64 /
+peças /
+sdist /
+var /
+rodas /
+metadados pip-wheel /
+compartilhar / rodas-python /
+* .egg-info /
+.installed.cfg
+*.ovo
+MANIFESTO
+
+# PyInstaller
+# Geralmente, esses arquivos são gravados por um script python a partir de um modelo
+# antes do PyInstaller criar o exe, para injetar data / outras informações nele.
+*.manifesto
+* .spec
+
+# Logs do instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Relatórios de teste / cobertura unitária
+htmlcov /
+.tox /
+.nox /
+.cobertura
+.cobertura.*
+.cache
+nosetests.xml
+cobertura.xml
+*.cobrir
+.hipótese/
+.pytest_cache /
+
+# Traduções
+* .mo
+*.Panela
+
+# Coisas arranhadas:
+.scrapy
+
+# Documentação da esfinge
+docs / _build /
+
+# PyBuilder
+alvo/
+
+# pyenv
+.python-version
+
+# pipenv
+# De acordo com pypa / pipenv # 598, é recomendável incluir o Pipfile.lock no controle de versão.
+# No entanto, no caso de colaboração, se houver dependências ou dependências específicas da plataforma
+# sem suporte multiplataforma, o pipenv pode instalar dependências que não funcionam ou não
+# instalar todas as dependências necessárias.
+# Pipfile.lock
+
+# arquivo de programação de batidas de aipo
+aipo-agenda
+
+# SageMath arquivos analisados
+* .sage.py
+
+# Configurações do projeto Spyder
+.spyderproject
+.spyproject
+
+# Configurações do projeto de corda
+.ropeproject
+
+# Mr Developer
+.mr.developer.cfg
+.projeto
+.pydevproject
+
+documentação do # mkdocs
+/local
+
+# mypy
+.mypy_cache /
+.dmypy.json
+dmypy.json
+
+# Verificador de tipo pira
+.pyre /
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+
+### Patch do VisualStudioCode ###
+# Ignora todo o histórico local de arquivos
+.história
+
+# Fim do https://www.gitignore.io/api/linux,macos,python,pycharm,visualstudiocode

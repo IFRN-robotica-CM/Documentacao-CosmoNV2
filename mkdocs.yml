@@ -1,0 +1,30 @@
+site_name: Documentacao CosmosNV2
+
+theme: readthedocs
+
+
+nav_style: dark
+nav:
+    - Home: index.md
+    - Sensores:
+        - Refletancia: Sensores/Refletancia.md
+        - Distancia: Sensores/Distancia.md
+    - Motores:
+        - ln298: Motores/Ln298.md
+        - Servo: Motores/Servo.md
+    - Outros:
+        - Buzzer: Outros/Buzzer.md
+    - Contribua:
+        - Como contribuir: Contribuir/Contribuir.md
+
+extra_css:
+    - css/extra_css.css
+
+site_favicon: /favicon.icon
+extra_javascript:
+   - Scripts/Obrigado.js
+    
+
+
+
+

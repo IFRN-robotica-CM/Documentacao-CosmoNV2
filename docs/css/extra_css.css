@@ -1,0 +1,19 @@
+.wy-side-nav-search
+{
+background-color:#146535;
+}
+wy-nav-content{
+    color: #ffffff;
+}
+
+.caption{
+color: #fffa2f;
+}
+
+.reference internal{
+    color:#eaeaea;
+}
+
+.img{
+    max-width: 50%;
+}
